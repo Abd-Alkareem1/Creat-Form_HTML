@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Creat-Form-HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Full stack course</h1>
+            <form style="border: 2px solid black; background-color: lightblue; padding: 20px;">
+                <label>
+                Name :
+                <input type="text" placeholder="Enter your name" required> 
+            </label>
+            <br><br>
+            <label>
+                Email :
+                <input type="email" placeholder="Enter your email" required>
+            </label>
+            <br><br>
+            <label>
+                Password :
+                <input type="password" placeholder="Enter your password"  required>
+            </label>
+            <br><br>
+            <label>
+                Skills : 
+                <br>
+                <input type="checkbox" id="htmlCheckbox"> HTML
+                <br>
+                <input type="checkbox" id="cssCheckbox"> CSS
+                <br>
+                <input type="checkbox" id="htmlCheckbox"> JavaScript
+                <br>
+                <input type="checkbox" id="cssCheckbox"> PHP
+                <br>
+                <input type="checkbox" id="htmlCheckbox"> Python
+                <br>
+                <input type="checkbox" id="cssCheckbox"> C++
+            </label>
+            <br><br>
+            <label >
+                Gender :
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </label>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
